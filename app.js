@@ -8,7 +8,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/db_warung', 
+mongoose.connect('mongodb+srv://Rivaldi:regenci2@cluster0.gqdkw.mongodb.net/db_admin_warung?retryWrites=true&w=majority', 
 {
   useNewUrlParser: true,
   useUnifiedTopology: true,
